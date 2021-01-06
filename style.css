@@ -1,0 +1,61 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.name-tag {
+  background-color: #ffcdb2;
+  color: white;
+  border-radius: 30px;
+  border: 0.2px solid white;
+  width: 550px;
+  height: 400px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.main {
+  background: white;
+  color: black;
+  height: 150px;
+
+}
+
+.title {
+  font-size: 6em;
+  font-family:'Raleway', sans-serif;
+  letter-spacing: 3px;
+  margin:0px;
+    
+}
+
+.sub-title {
+  font-size: 3em;
+  font-family:'Raleway', sans-serif;
+  font-weight: 40;
+  letter-spacing: 2px;
+  margin:0px;
+    
+  }
+
+.name {
+  font-size: 3em;
+  font-style: italic;
+  font-family: cursive;
+  font-family:'Homemade Apple', cursive;
+    
+}
