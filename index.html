@@ -6,19 +6,36 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
     <title>Name Tag</title>
   </head>
   <body>
-    <div class = "name-tag">
+    <section id="name-tag" class = "name-tag">
       <header class = "header">
       <h1 class="title">HELLO</h1>
       <span class="sub-title">my name is</span>
       </header>
       <main class="main">
-      <h3 class="name">Zina Mohamed</h3>
+        <h3 id="my-special-name" class="name"></h3>
       </main>
-      <footer class="footer">
-      </footer>
-    </div>
+      <section class="pronouns">
+        <h4 id="my-special-pronoun" class="pronoun"></h4>
+      </section>
+    </section>
+    <section class = "signature-area">
+      <input id="my-special-input" class="signature" type="text" placeholder="sign here..">
+      <input id="my-pronoun-input" class="signature" type="text" placeholder="add your pronouns..">
+    </section>
+    <section class ="submit-area">
+      <button id="my-special-button" class="submit" type="button">Submit!</button>
+    </section>
+    <section class = "color-buttons">
+      <button id="pink-button" class="pink-button" type="button">Change Me to Pink!</button>
+      <button id="blue-button" class="blue-button" type="button">Change Me to Blue!</button>
+      <button id="lavender-button" class="lavender-button" type="button">Change Me to Purple!</button>
+    </section>
+    
   </body>
+  <script src="app.js"></script>
 </html>

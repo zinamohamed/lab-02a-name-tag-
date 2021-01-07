@@ -3,10 +3,16 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4f4;
+  background-color: #f0efeb;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  background-image: url('https://cdn.dribbble.com/users/13449/screenshots/12078823/media/c6662b0de7365559f79d9eb6088d9527.png?compress=1&resize=800x600');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
 }
 
 * {
@@ -19,8 +25,8 @@ body, html {
   color: white;
   border-radius: 30px;
   border: 0.2px solid white;
-  width: 550px;
-  height: 400px; 
+  width: 500px;
+  height: 350px; 
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -31,12 +37,12 @@ body, html {
 .main {
   background: white;
   color: black;
-  height: 150px;
+  height: 120px;
 
 }
 
 .title {
-  font-size: 6em;
+  font-size: 5em;
   font-family:'Raleway', sans-serif;
   letter-spacing: 3px;
   margin:0px;
@@ -44,7 +50,7 @@ body, html {
 }
 
 .sub-title {
-  font-size: 3em;
+  font-size: 2.5em;
   font-family:'Raleway', sans-serif;
   font-weight: 40;
   letter-spacing: 2px;
@@ -59,3 +65,116 @@ body, html {
   font-family:'Homemade Apple', cursive;
     
 }
+
+
+.signature-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  padding: 20px;
+}
+
+.signature {
+  text-decoration: none;
+  border:none;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.pronoun {
+  color: white;
+  font-size: 1.5em;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.my-pronoun-input {
+  text-decoration: none;
+  border:none;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  
+}
+
+.submit {
+  background:#ffcdb2;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 5px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 0.5px solid white;
+  height:50px;
+  width:150px;
+}
+
+
+
+
+.color-buttons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rajdhani', sans-serif;
+  padding: 20px;
+  margin: 20px;
+  
+  
+}
+
+.pink-button {
+  background:#FFADAD;
+  color:white;
+  border: none;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  height:50px;
+  width:180px;
+  margin: 10px;
+}
+
+.blue-button {
+  background: #a0c4ff;
+  border: none;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  height:50px;
+  width:180px;
+  margin: 10px;
+}
+
+.lavender-button {
+  background:#bdb2ff;
+  border: none;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 0.5px solid white;
+  height:50px;
+  width:180px;
+  margin: 10px;
+}
+
